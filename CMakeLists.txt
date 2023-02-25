@@ -72,7 +72,6 @@ endif ()
 
 CPMAddPackage(
         NAME libscylladb
-        GITHUB_REPOSITORY scylladb/cpp-driver
         URL https://github.com/scylladb/cpp-driver/tarball/2.16.2b
         URL_HASH MD5=67e6c74cdd6c9692b2745bfc28dccdaa
         OPTIONS
