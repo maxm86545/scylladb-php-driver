@@ -42,6 +42,7 @@ endif ()
 
 CPMAddPackage(
         NAME libuv
+        VERSION 1.44.2
         URL https://github.com/libuv/libuv/tarball/v1.44.2
         URL_HASH MD5=3e22e24d53aab67252907dfa004a6b53
         OPTIONS
@@ -72,6 +73,7 @@ endif ()
 
 CPMAddPackage(
         NAME libscylladb
+        VERSION 2.16.2b
         URL https://github.com/scylladb/cpp-driver/tarball/2.16.2b
         URL_HASH MD5=67e6c74cdd6c9692b2745bfc28dccdaa
         OPTIONS
